@@ -1,5 +1,5 @@
-#pragma once
-#include "x-header.hpp"
+#ifndef _COM_WIFI_H
+#define _COM_WIFI_H
 
 extern String hostname;
 
@@ -8,3 +8,5 @@ void scan_wifi_ssid();
 void wlan_config();
 
 IPAddress ipwandeln(String temp);
+
+#endif

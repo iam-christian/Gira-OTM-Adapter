@@ -1,5 +1,5 @@
-#pragma once
-#include "x-header.hpp"
+#ifndef _COM_MQTT_H
+#define _COM_MQTT_H
 
 //extern WiFiClient espClient;
 extern PubSubClient client;
@@ -9,3 +9,5 @@ void mqtt_config();
 void mqtt_connect();
 void mqtt_publish(String topic, String msg);
 void mqtt_publish_int(String topic, int msg);
+
+#endif
