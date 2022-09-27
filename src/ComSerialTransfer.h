@@ -1,5 +1,5 @@
-#ifndef _SERIAL_TRANSFER_H
-#define _SERIAL_TRANSFER_H
+#ifndef _COM_SERIAL_TRANSFER_H
+#define _COM_SERIAL_TRANSFER_H
 
 extern boolean seri_run;
 
